@@ -2045,7 +2045,7 @@ a.btn:focus{
 	}
 	
 	.cta-btn {
-		float: none;
+		/*float: none;*/
 		text-align: center;
 	}
 	
@@ -2056,6 +2056,10 @@ a.btn:focus{
 	.sub-footer p {
 		float: none;
 		text-align: center;
+	}
+	.intro-content {
+    background: url(../img/dummy/bg1.jpg) no-repeat top center;
+    padding: 120px 0 60px;
 	}
 
 }
@@ -2103,7 +2107,8 @@ a.btn:focus{
 }
 */
 @media (max-width: 230px){
-	.cta-btn {
-		margin-right: 50px;
+	.cta-btn {	
+    margin: 0px auto;
+    float: right;
 	}
 }
