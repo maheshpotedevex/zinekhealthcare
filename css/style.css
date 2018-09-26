@@ -309,6 +309,7 @@ Navigation
 
 .navbar.navbar-custom.navbar-fixed-top  {
 	background: #fff;
+	padding-bottom: 14px;
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -884,6 +885,8 @@ form.lead label,form.lead input {
   -webkit-box-shadow: none;
           box-shadow: none;
 	border: none;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-bottom: 0px;
 }
 
 
@@ -1976,7 +1979,7 @@ a.btn:focus{
 		width: 100%;
 	}
 	.intro-content {
-		padding:250px 0 0;
+		/*padding:250px 0 0;*/
 	}
 
 }
@@ -2091,5 +2094,16 @@ a.btn:focus{
 	
 	.intro-content {
 		padding:250px 0 0;
+	}
+}
+/*@media (max-width:230px) {
+	.btn{
+		margin-right: 50px;
+	}
+}
+*/
+@media (max-width: 230px){
+	.cta-btn {
+		margin-right: 50px;
 	}
 }
